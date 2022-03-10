@@ -13,6 +13,7 @@ app.use(morgan('tiny')) //HTTP Status
 
 //Router
 const userRouter = require('./router/users')
+
 //API
 app.use('/', userRouter)
 
